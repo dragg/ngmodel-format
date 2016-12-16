@@ -20,6 +20,7 @@
                         $eval = args.$eval;
 
                     var val = filter("currency")(modelValue);
+                    if(!val) return val;
                     return attrs.prefixed && $eval(attrs.prefixed) ? val : val.substr(1);
                 },
                 "parser": function(args) {
