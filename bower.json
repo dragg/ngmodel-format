@@ -1,6 +1,6 @@
 {
-  "name": "ngmodel-format",
-  "version": "0.0.1",
+  "name": "dragg-ngmodel-format",
+  "version": "0.1.1",
   "authors": [
   ],
   "description": "angualr format for input/select",
